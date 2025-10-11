@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: Roboto;
 }
 
 main {
@@ -18,4 +19,34 @@ main {
 
 section {
   flex: 1;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
 }
