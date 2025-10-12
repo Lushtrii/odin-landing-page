@@ -59,3 +59,56 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.hero {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.hero-section {
+  flex-basis: 500px;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.hero-section.placeholder-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  min-width: 500px;
+  height: 200px;
+}
+
+.signup-button {
+  padding: 8px 32px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.signup-button:hover {
+  background-color: #185ece;
+  cursor: pointer;
+}
