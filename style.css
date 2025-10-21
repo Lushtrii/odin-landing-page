@@ -180,3 +180,41 @@ a:hover {
   font-weight: bold;
   font-size: 22px;
 }
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  display: flex;
+  gap: 128px;
+  min-width: 700px;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  width: 80%;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+  background-color: #3882f6;
+}
+
+.signup-button-transparent {
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.signup-button-transparent:hover {
+  background-color: white;
+  color: #3882f6;
+  cursor: pointer;
+}
