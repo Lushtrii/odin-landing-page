@@ -218,3 +218,13 @@ a:hover {
   color: #3882f6;
   cursor: pointer;
 }
+
+footer {
+  height: 100px;
+  display: flex;
+  color: #f9faf8;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+}
